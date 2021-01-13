@@ -1,0 +1,23 @@
+{
+  "name": "demo-lib-ts",
+  "version": "1.0.0",
+  "description": "## how to use ```shell npm install demo-ts ```",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quixote15/npm-demo-lib-ts.git"
+  },
+  "author": "Tiago Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quixote15/npm-demo-lib-ts/issues"
+  },
+  "homepage": "https://github.com/quixote15/npm-demo-lib-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
